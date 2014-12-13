@@ -3,7 +3,7 @@ var plugins = require('gulp-load-plugins')();
 var reporters = require('jasmine-reporters');
 
 gulp.task('test', function(cb) {
-  gulp.src('test/spec/**/*.js')
+  gulp.src('src/objectjs.js')
     .pipe(plugins.istanbul())
     .pipe(plugins.istanbul.hookRequire())
     .on('finish', function() {
