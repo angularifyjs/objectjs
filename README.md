@@ -4,9 +4,6 @@ objectjs [![Build Status](https://travis-ci.org/angularifyjs/objectjs.svg?branch
 Extendable object in javascript
 
 
-Usage
----------
-
 ## Installing
 
 ```
